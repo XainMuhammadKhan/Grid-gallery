@@ -1,0 +1,46 @@
+body{
+    background-image: url(./desktop-wallpaper-uefa-champions-league.jpg);
+}
+.sub1{
+    grid-area: sub1;
+    
+}
+.sub2{
+    grid-area: sub2;
+    
+}
+.sub3{
+    grid-area: sub3;
+    
+}
+.sub4{
+    grid-area: sub4;
+}
+.sub5{
+    grid-area: sub5;
+}
+.sub6{
+    grid-area: sub6;
+}
+.sub7{
+    grid-area: sub7;
+}
+.sub8{
+    grid-area: sub8;
+}
+.main{
+    display: grid;
+    /* border: 1px solid; */
+    grid-template-areas: "sub1 sub2"
+    "sub3 sub4"
+    "sub5 sub6"
+    "sub7 sub8";
+    grid-gap: 10px;
+}
+.img{
+   max-width: 100%;
+   height: auto;
+   aspect-ratio: 3/2;
+   border-radius: 15px;
+   box-shadow: 2px 4px;
+}
